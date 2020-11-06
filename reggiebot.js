@@ -179,9 +179,14 @@ client.on('presenceUpdate', (oldPresence, newPresence) =>{
             }
             else{}
         }
+        //This is to deal with people who don't show game status so we check the oldPresence since the code block above doesn't take into account blank activities
+        else if(newPresence.activities[0] === undefined && oldPresence.activities[0].type === "STREAMING"){
+            console.log("Stream Role removed");
+            newPresence.guild.members.cache.get(newPresence.user.id).roles.remove(streamRole);
+        }
     }
     catch (error){
-        console.error(error);
+        console.log("Error in presenceUpdate code block");
     }
 
     
