@@ -13,7 +13,7 @@ consumer_secretU: Twitter api consumer secret
 access_tokenU: Twitter api access token
 access_token_secretU: Twitter api access token secret 
 pass: email logon
-{
+
     "prefix":
     "token" : 
     "consumer_keyU" :         
@@ -21,5 +21,5 @@ pass: email logon
     "access_tokenU": 
     "access_token_secretU": 
     "pass" : 
-}
+
 
