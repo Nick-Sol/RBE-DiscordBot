@@ -2,7 +2,7 @@
 Discord bot for Redbird Esports
 
 
-#Config file format
+# Config file format
 
 File name = config.json
 
