@@ -6,13 +6,13 @@ Discord bot for Redbird Esports
 
 File name = config.json
 
-Prefix = Command prefix
-token = Discord token
-consumer_keyU: Twitter api consumer key
-consumer_secretU: Twitter api consumer secret 
-access_tokenU: Twitter api access token
-access_token_secretU: Twitter api access token secret 
-pass: email logon
+Prefix = Command prefix <br/>
+token = Discord token <br/>
+consumer_keyU: Twitter api consumer key <br/>
+consumer_secretU: Twitter api consumer secret  <br/>
+access_tokenU: Twitter api access token <br/>
+access_token_secretU: Twitter api access token secret <br/>
+pass: email logon <br/>
 
     "prefix":
     "token" : 
