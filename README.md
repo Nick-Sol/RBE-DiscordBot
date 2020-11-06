@@ -21,5 +21,8 @@ pass: email logon <br/>
     "access_tokenU": 
     "access_token_secretU": 
     "pass" : 
-
-
+# Required packages
+fs <br/>
+discord.js <br/>
+nodemailer <br/>
+twit <br/>
