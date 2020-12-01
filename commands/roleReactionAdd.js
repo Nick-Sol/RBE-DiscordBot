@@ -35,6 +35,109 @@ module.exports = {
                         console.log(`test`);
                 }
             }
+            else if(reaction.message.id === "783341371317813358" || reaction.message.id === "783341536360398889")
+            {
+                switch (reaction.emoji.name) {
+                    case 'GENGAMESfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Gen Games");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'LOLfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod League of Legends");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'GAMEDEVfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Game Development");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'ANIMEfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Anime");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'AMONGUSfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Among Us");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'BOARDfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Board Games");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'PokeGOfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Pokémon GO");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'YUGIOHfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Yu-Gi-Oh");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'VALORANTfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod VALORANT");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'OTHERfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Other Games");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'HALOfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Halo");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'SMASHfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Super Smash Bros");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'SMITEfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Smite");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'RLfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Rocket League");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'R6fan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Rainbow Six Siege");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'OWfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Overwatch");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;   
+                    case 'HSfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Hearthstone");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;          
+                    case 'MADDENfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Sport Games");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;
+                    case 'FNfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Fortnite");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;               
+                    case 'DOTAfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Dota 2");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;         
+                    case 'CSfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Counter Strike: Global Offensive");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;        
+                    case 'CODfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Call of Duty");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;         
+                    case 'APEXfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Apex Legends");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;         
+                    case 'DnDfan':
+                        var role = reaction.message.guild.roles.cache.find(role => role.name === "Mod Dungeons and Dragons");
+                        reaction.message.guild.members.cache.get(user.id).roles.add(role);
+                        break;                                                                                     
+                    default:
+                        console.log(`test`);
+                }
+            }
             else
             {
                 if("745849680839311451" === reaction.message.id || "745850345867182202" === reaction.message.id || "745851278776729623" === reaction.message.id || "745851306702405713" === reaction.message.id || "745851333436899398" === reaction.message.id || "764199391241175087" === reaction.message.id )
