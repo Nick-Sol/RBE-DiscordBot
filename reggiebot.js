@@ -28,7 +28,7 @@ client.on('ready', () => {
     console.log('Hello World.')
 })
 
-//Setup a more offical email, change the message, change role names.
+//Setup a more offical email, change the message, change role names.s
 
 
 //This is lowercase since we pass commands through a tolowercase for userinput cleaning purposes.
